@@ -1,0 +1,32 @@
+body{
+    background-color: black;
+    font-family: Roboto-Regular;
+    @include center;
+}
+section{
+    @include flex;
+    background-color: rgba(0, 0, 255, 0.1);
+    height: 50vh;
+    width: 60vw;
+    border-radius: 20px;
+
+    background-color: black;
+
+
+    .add-todo{
+        height: 10vh;
+    }
+    #todo-list{
+        #list{
+            padding: 0px;
+            li{
+                display: inline;
+                padding: 5px 10px;
+                background-color:  rgba(0, 0, 255, 0.1); 
+                border-radius: 10px;
+                @include listNoStyle;
+            }
+        }
+    }
+}
+

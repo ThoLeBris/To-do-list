@@ -1,0 +1,62 @@
+@font-face {
+  font-family: Roboto-Regular;
+  src: url(../fonts/Roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-Italic;
+  src: url(../fonts/Roboto/Roboto-Italic.ttf);
+}
+@font-face {
+  font-family: Roboto-Bold;
+  src: url(../fonts/Roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-Black;
+  src: url(../fonts/Roboto/Roboto-Black.ttf);
+}
+@font-face {
+  font-family: Roboto-Thin;
+  src: url(../fonts/Roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-ThinItalic;
+  src: url(../fonts/Roboto/Roboto-ThinItalic.ttf);
+}
+body {
+  background-color: black;
+  color: white;
+  font-family: Roboto-Regular;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+section {
+  background-color: rgba(0, 0, 255, 0.1);
+  height: 50vh;
+  width: 60vw;
+  border-radius: 20px;
+}
+section .add-todo {
+  height: 10vh;
+}
+section #todo-list #list {
+  padding: 0px;
+}
+section #todo-list #list li {
+  display: inline;
+  padding: 5px 10px;
+  background-color: rgba(0, 0, 255, 0.1);
+  border-radius: 10px;
+  list-style: none;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */
